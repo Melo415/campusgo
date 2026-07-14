@@ -1,0 +1,1 @@
+{"version":3,"file":"canteen.js","sources":["../../uniapp/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvY2FudGVlbi9jYW50ZWVuLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'D:/net/xder-reviews-uniapp-front-end/pages/canteen/canteen.vue'\nwx.createPage(MiniProgramPage)"],"names":["MiniProgramPage"],"mappings":";;;;;;;;;;;;;;;AACA,GAAG,WAAWA,SAAe;"}

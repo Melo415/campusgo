@@ -1,0 +1,145 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/foodList/foodList",
+      "style": {
+        "navigationBarTitleText": "美食"
+      }
+    },
+    {
+      "path": "pages/footMassageList/footMassageList",
+      "style": {
+        "navigationBarTitleText": "按摩/足疗"
+      }
+    },
+   /* {
+      "path": "pages/hairCut/hairCut",
+      "style": {
+        "navigationBarTitleText": "丽人/美发"
+      }
+    }, */
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/note/note",
+      "style": {
+        "navigationBarTitleText": "笔记"
+      }
+    },
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/blog/detail",
+      "style": {
+        "navigationBarTitleText": "笔记详情"
+      }
+    },
+    {
+      "path": "pages/entertainment/entertainment",
+      "style": {
+        "navigationBarTitleText": "娱乐"
+      }
+    },
+    {
+      "path": "pages/canteen/canteen",
+      "style": {
+        "navigationBarTitleText": "食堂"
+      }
+    },
+    {
+    	"path" : "pages/userInfo/userInfo",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "用户界面"
+    	}
+    },
+    {
+      "path": "pages/editProfile/editProfile",
+      "style": {
+        "navigationBarTitleText": "编辑资料"
+      }
+    },
+    {
+    	"path" : "pages/foodShop/detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "商铺详情"
+    	}
+    }
+    
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+	"navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f5f5",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#e43d33",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tabBar/index.png",
+        "selectedIconPath": "/static/tabBar/index_selected.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/static/tabBar/message.png",
+        "selectedIconPath": "/static/tabBar/message_selected.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "笔记",
+        "iconPath": "/static/tabBar/note.png",
+        "selectedIconPath": "/static/tabBar/note_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "/static/tabBar/my.png",
+        "selectedIconPath": "/static/tabBar/my_selected.png"
+      }
+    ]
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "登录页",
+        "path": "pages/login/login",
+        "launchMode": "default"
+      }
+    ]
+  }
+}

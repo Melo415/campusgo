@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/message/message",
+    "pages/foodList/foodList",
+    "pages/footMassageList/footMassageList",
+    "pages/hairCut/hairCut",
+    "pages/login/login",
+    "pages/note/note"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffaa00",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "XDer点评",
+    "backgroundColor": "#2979ff",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#e43d33",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "笔记",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}
