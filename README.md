@@ -122,9 +122,12 @@ mvn spring-boot:run
 - 后端跨域配置和 WebSocket 允许来源应在生产环境限制为实际前端域名。
 - 当前演示数据中的店铺信息主要用于本地功能验证，部署前应替换为真实且合规的数据源。
 
-## 参考与致谢
+## 参考项目
 
-项目的点评业务设计参考了 **黑马点评** 学习项目，并在此基础上完成了校园化前端页面和功能扩展。
+- [XDer 点评前端](https://gitee.com/yuwozai618/xder-reviews-uniapp-front-end)
+- [XDer 点评后端](https://gitee.com/yuwozai618/hmdp001)
+
+本项目在参考上述项目的基础上进行了校园场景适配与功能扩展。
 
 ## License
 
