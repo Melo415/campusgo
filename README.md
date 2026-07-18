@@ -110,11 +110,25 @@ mvn spring-boot:run
 - 服务端注册 `/ws/notification` WebSocket 端点，在线用户可接收互动通知；
 - WebSocket 握手阶段从 Redis 中校验登录态，避免匿名连接。
 
-## 页面展示
+## 功能验证截图
 
-| 首页 | 个人中心 |
+以下截图来自本地联调过程，覆盖登录校验、笔记发布、数据落库、互动和通知等关键链路。
+
+| 登录校验 | 发布笔记 |
 | --- | --- |
-| ![首页](campusgo_front/markdown-img/README/index20250407111640.png) | ![个人中心](campusgo_front/markdown-img/README/Screenshot%202025-04-06%20223130.png) |
+| ![密码校验失败反馈](docs/screenshots/login-password-error.jpg) | ![填写笔记内容并上传图片](docs/screenshots/publish-note.jpg) |
+
+| 发布成功 | 数据库记录 |
+| --- | --- |
+| ![发布成功提示](docs/screenshots/publish-success.jpg) | ![笔记记录已写入数据库](docs/screenshots/note-record.jpg) |
+
+| 首页点赞 | 笔记详情 |
+| --- | --- |
+| ![点赞成功并更新计数](docs/screenshots/like-success.jpg) | ![笔记详情与点赞用户](docs/screenshots/note-detail.jpg) |
+
+| 关注通知 | 个人中心 |
+| --- | --- |
+| ![关注事件实时通知](docs/screenshots/follow-notification.jpg) | ![个人笔记管理](docs/screenshots/profile-note.jpg) |
 
 ## 注意事项
 
