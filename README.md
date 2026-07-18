@@ -76,6 +76,8 @@ mysql -u root -p hmdp < campusgo_springboot/src/main/resources/db/hmdp.sql
 - RabbitMQ：地址、账号和密码；
 - 阿里云 OSS：通过环境变量 `ALIBABA_CLOUD_ACCESS_KEY_ID`、`ALIBABA_CLOUD_ACCESS_KEY_SECRET` 配置访问凭证。
 
+建议通过环境变量传入数据库与 RabbitMQ 凭证，例如 `DB_PASSWORD`、`RABBITMQ_PASSWORD`，不要把真实密码提交到仓库。
+
 启动 Redis 和 RabbitMQ 后，进入后端目录运行：
 
 ```bash
@@ -109,6 +111,10 @@ mvn spring-boot:run
 - 秒杀请求通过 RabbitMQ 解耦，消费者异步完成库存校验和订单持久化；
 - 服务端注册 `/ws/notification` WebSocket 端点，在线用户可接收互动通知；
 - WebSocket 握手阶段从 Redis 中校验登录态，避免匿名连接。
+
+## 工程过程与测试
+
+项目在 2026 年 3—5 月完成需求梳理、前后端开发、联调和回归测试。仓库保留了可复核的功能验证截图；开发分工、测试范围、缺陷闭环和文档与代码的校准记录见 [工程过程说明](docs/ENGINEERING_NOTES.md)。
 
 ## 功能验证截图
 

@@ -52,9 +52,9 @@ public class MvcConfig extends WebMvcConfigurationSupport {
     public Docket docket1(){
         log.info("准备生成接口文档...");
         ApiInfo apiInfo = new ApiInfoBuilder()
-                .title("XDer点评项目接口文档")
+                .title("CampusGo 接口文档")
                 .version("1.0")
-                .description("XDer点评项目接口文档")
+                .description("CampusGo 校园生活点评应用接口文档")
                 .build();
 
         Docket docket = new Docket(DocumentationType.SWAGGER_2)
